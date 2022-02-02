@@ -71,7 +71,7 @@ async function delPost(id) {
     "DELETE",
     `https://jsonplaceholder.typicode.com/posts/${id}`
   );
-  console.log(result);
+  console.log("successfully deleted");
 }
 
 async function createPost(title, content) {
